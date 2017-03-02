@@ -35,6 +35,7 @@ body {
   font-family: "adobe-garamond-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #00253c;
   background-color: #e1dad5;
+  webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
 html {
   width: 100%;
@@ -94,8 +95,10 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
-body {
-  webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+
+.futura {
+  font-family: "futura-pt";
+  font-weight: 500;
 }
 
 /*----------------------------------------------- 
@@ -195,7 +198,6 @@ body {
     width: 10%;
   }
 }
-
 
 /*----------------------------------------------- 
 
@@ -326,6 +328,7 @@ body {
   4. Content
 
 ------------------------------------------------*/
+
 .content-section {
   padding: 0;
 }
@@ -417,6 +420,7 @@ section {
   5. Our Story
 
 ------------------------------------------------*/
+
 .image-bg-ourstory{
   background: url(../img/ourstory.jpg) no-repeat center center scroll;
   padding: 270px 0;
@@ -518,12 +522,30 @@ span.press-credit {
   color: #f4f4f4;
 }
 .contact-map {
-  -webkit-filter: grayscale(100%); 
-  filter: grayscale(100%);
-  background: white;
-  height: auto;
+  padding-left: 100px;
+  padding-bottom: 100px;
+  padding-right: 100px;
+  width: 100%;
+  background-color: #2b3037;
+  height: 500px;
 }
-
+@media (max-width: 750px) {
+  .contact-map {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    height: 400px;
+  }
+  .contact-section {
+    padding: 100px 10px;
+  }
+  .image-bg-contact{
+    background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
+    padding: 250px 0;
+    background-size: cover;
+  }
+}
 /*----------------------------------------------- 
 
   10. Footer
