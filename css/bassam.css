@@ -482,6 +482,23 @@ section {
   margin-top: 3%;
 }
 
+div.row-2, div.row-3, div.row-4
+{
+  margin-top: 5%;
+}
+
+#press p {
+  width: 50%;
+}
+
+
+#press .container {
+  margin-left: 15%;
+}
+
+span.press-credit {
+  padding-right: 2%;
+}
 
 /*----------------------------------------------- 
 
