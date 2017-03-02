@@ -505,13 +505,30 @@ section {
   color: #f4f4f4;
 }
 .contact-map {
-  -webkit-filter: grayscale(100%); 
-  filter: grayscale(100%);
-  height: auto;
-  padding-top: 100px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+  padding-right: 100px;
   width: 100%;
+  background-color: #2b3037;
+  height: 500px;
 }
-
+@media (max-width: 750px) {
+  .contact-map {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    height: 400px;
+  }
+  .contact-section {
+    padding: 100px 10px;
+  }
+  .image-bg-contact{
+    background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
+    padding: 250px 0;
+    background-size: cover;
+  }
+}
 /*----------------------------------------------- 
 
   10. Footer
