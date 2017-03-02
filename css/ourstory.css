@@ -211,7 +211,7 @@ body {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url(../img/ourstory.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -348,7 +348,7 @@ body {
     padding-top: 0px;
   }
   .our-story-section {
-    padding: 10%; 
+    padding: 20%; 
   }
   .download-section {
     padding: 100px 0;
@@ -409,13 +409,9 @@ section {
 
 /*----------------------------------------------- 
 
-  5. Our Story
+  5. Footer
 
 ------------------------------------------------*/
-.image-bg-contact{
-  background: url(../img/ourstory.jpg) no-repeat center center scroll;
-    padding: 180px 0;
-}
 
 /*----------------------------------------------- 
 
@@ -441,10 +437,9 @@ section {
 
 ------------------------------------------------*/
 
-.image-bg-ourstory{
+.image-bg-contact{
   background: url(../img/ourstory.jpg) no-repeat center center scroll;
-  background-size: cover;
-    padding: 270px 0;
+    padding: 180px 0;
 }
 
 .contact-section {
