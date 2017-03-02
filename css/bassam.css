@@ -329,9 +329,13 @@ body {
 .content-section {
   padding: 0;
 }
+.container {
+  width: 100%;
+}
 .row {
   background-color: inherit;
   width: 100%;
+  margin: 0;
 }
 .our-story-section {
   padding: 100px;
@@ -379,8 +383,10 @@ section {
     margin: 30px 0;
     font-size: 4em;
 }
-
 .section-lead {
+    margin: 30px 0;
+}
+.section-paragraph {
     margin: 30px 0;
 }
 .btn {
@@ -411,9 +417,10 @@ section {
   5. Our Story
 
 ------------------------------------------------*/
-.image-bg-contact{
+.image-bg-ourstory{
   background: url(../img/ourstory.jpg) no-repeat center center scroll;
-    padding: 180px 0;
+  padding: 270px 0;
+  background-size: cover;
 }
 
 /*----------------------------------------------- 
@@ -428,10 +435,10 @@ section {
 
 ------------------------------------------------*/
 #gallery{
-  margin-left: 11%;
+  margin-left: 9.5%;
 }
 #gallery h1{
-  margin-left: 40.5%;
+  margin-left: 42%;
 }
 #gallery-wrap{
   overflow-x:hidden;
@@ -442,8 +449,8 @@ section {
     vertical-align: middle;
     position: relative;
     width: 30%;
-    padding-bottom: 1.5%%; /* = width for a 1:1 aspect ratio */
-    margin:1.1%;
+    padding-bottom: 1.5%; /* = width for a 1:1 aspect ratio */
+    margin:1%;
     overflow:hidden;
 }
 .table{
@@ -456,6 +463,10 @@ section {
     vertical-align:middle;
     height:130%;
     width:130%;
+}
+.image-bg-gallery{
+  background:url('../img/galleryTest.png')no-repeat center center scroll;
+  padding: 180px 0;
 }
 /*----------------------------------------------- 
 
@@ -477,16 +488,23 @@ section {
   9. Contact
 
 ------------------------------------------------*/
-
-.image-bg-ourstory{
-  background: url(../img/ourstory.jpg) no-repeat center center scroll;
+.image-bg-contact{
+  background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
+  padding: 270px 0;
   background-size: cover;
-    padding: 270px 0;
 }
-
 .contact-section {
   padding: 100px;
-  background-color: #e1dad5;
+  background-color: #2b3037;
+}
+.contact-section p, a, h2 {
+  color: #f4f4f4;
+}
+.contact-map {
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+  background: white;
+  height: auto;
 }
 
 /*----------------------------------------------- 
@@ -524,9 +542,4 @@ footer p {
   letter-spacing: 5px; 
   font-size: 12px;
   color: #ffffff;
-}
-
-
-.section-paragraph {
-    margin: 30px 0;
 }
