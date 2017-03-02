@@ -435,10 +435,10 @@ section {
 
 ------------------------------------------------*/
 #gallery{
-  margin-left: 11%;
+  margin-left: 9.5%;
 }
 #gallery h1{
-  margin-left: 40.5%;
+  margin-left: 42%;
 }
 #gallery-wrap{
   overflow-x:hidden;
@@ -449,8 +449,8 @@ section {
     vertical-align: middle;
     position: relative;
     width: 30%;
-    padding-bottom: 1.5%%; /* = width for a 1:1 aspect ratio */
-    margin:1.1%;
+    padding-bottom: 1.5%; /* = width for a 1:1 aspect ratio */
+    margin:1%;
     overflow:hidden;
 }
 .table{
@@ -463,6 +463,10 @@ section {
     vertical-align:middle;
     height:130%;
     width:130%;
+}
+.image-bg-gallery{
+  background:url('../img/galleryTest.png')no-repeat center center scroll;
+  padding: 180px 0;
 }
 /*----------------------------------------------- 
 
