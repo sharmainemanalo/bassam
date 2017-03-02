@@ -468,6 +468,11 @@ section {
   8. Press
 
 ------------------------------------------------*/
+.image-bg-press {
+  background: url('../img/downloads-bg.jpg') no-repeat center center scroll;
+    padding: 180px 0;
+}
+
 
 /*----------------------------------------------- 
 
