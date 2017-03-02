@@ -29,6 +29,7 @@
   1. General Styling  
 
 ------------------------------------------------*/
+
 body {
   width: 100%;
   height: 100%;
@@ -210,7 +211,7 @@ body {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url(../img/ourstory.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -329,13 +330,9 @@ body {
 .content-section {
   padding: 0;
 }
-.container {
-  width: 100%;
-}
 .row {
   background-color: inherit;
   width: 100%;
-  margin: 0;
 }
 .our-story-section {
   padding: 100px;
@@ -351,7 +348,7 @@ body {
     padding-top: 0px;
   }
   .our-story-section {
-    padding: 10%; 
+    padding: 20%; 
   }
   .download-section {
     padding: 100px 0;
@@ -383,10 +380,8 @@ section {
     margin: 30px 0;
     font-size: 4em;
 }
+
 .section-lead {
-    margin: 30px 0;
-}
-.section-paragraph {
     margin: 30px 0;
 }
 .btn {
@@ -414,13 +409,9 @@ section {
 
 /*----------------------------------------------- 
 
-  5. Our Story
+  5. Footer
 
 ------------------------------------------------*/
-.image-bg-contact{
-  background: url(../img/ourstory.jpg) no-repeat center center scroll;
-    padding: 180px 0;
-}
 
 /*----------------------------------------------- 
 
@@ -433,36 +424,7 @@ section {
   7. Gallery
 
 ------------------------------------------------*/
-#gallery{
-  margin-left: 11%;
-}
-#gallery h1{
-  margin-left: 40.5%;
-}
-#gallery-wrap{
-  overflow-x:hidden;
-  min-height: 100%;
-}
-.square {
-    float:left;
-    vertical-align: middle;
-    position: relative;
-    width: 30%;
-    padding-bottom: 1.5%%; /* = width for a 1:1 aspect ratio */
-    margin:1.1%;
-    overflow:hidden;
-}
-.table{
-    display:table;
-    height:70%;
-    width:70%;
-}
-.table-cell{
-    display:table-cell;
-    vertical-align:middle;
-    height:130%;
-    width:130%;
-}
+
 /*----------------------------------------------- 
 
   8. Press
@@ -475,30 +437,14 @@ section {
 
 ------------------------------------------------*/
 
-<<<<<<< HEAD
 .image-bg-contact{
-  background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
-  padding: 270px 0;
-  background-size: cover;
-=======
-.image-bg-ourstory{
   background: url(../img/ourstory.jpg) no-repeat center center scroll;
-  background-size: cover;
-    padding: 270px 0;
->>>>>>> b67880979834f550bfb8925a1512a7e6723643fb
+    padding: 180px 0;
 }
+
 .contact-section {
   padding: 100px;
-  background-color: #2b3037;
-}
-.contact-section p, a, h2 {
-  color: #f4f4f4;
-}
-.contact-map {
-  -webkit-filter: grayscale(100%); 
-  filter: grayscale(100%);
-  background: white;
-  height: auto;
+  background-color: #e1dad5;
 }
 
 /*----------------------------------------------- 
@@ -536,4 +482,9 @@ footer p {
   letter-spacing: 5px; 
   font-size: 12px;
   color: #ffffff;
+}
+
+
+.section-paragraph {
+    margin: 30px 0;
 }
