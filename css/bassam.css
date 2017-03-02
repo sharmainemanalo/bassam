@@ -330,9 +330,13 @@ body {
 .content-section {
   padding: 0;
 }
+.container {
+  width: 100%;
+}
 .row {
   background-color: inherit;
   width: 100%;
+  margin: 0;
 }
 .our-story-section {
   padding: 100px;
@@ -380,8 +384,10 @@ section {
     margin: 30px 0;
     font-size: 4em;
 }
-
 .section-lead {
+    margin: 30px 0;
+}
+.section-paragraph {
     margin: 30px 0;
 }
 .btn {
@@ -439,12 +445,21 @@ section {
 
 .image-bg-contact{
   background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
-    padding: 180px 0;
+  padding: 270px 0;
+  background-size: cover;
 }
-
 .contact-section {
   padding: 100px;
-  background-color: #e1dad5;
+  background-color: #2b3037;
+}
+.contact-section p, a, h2 {
+  color: #f4f4f4;
+}
+.contact-map {
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+  background: white;
+  height: auto;
 }
 
 /*----------------------------------------------- 
@@ -482,9 +497,4 @@ footer p {
   letter-spacing: 5px; 
   font-size: 12px;
   color: #ffffff;
-}
-
-
-.section-paragraph {
-    margin: 30px 0;
 }
