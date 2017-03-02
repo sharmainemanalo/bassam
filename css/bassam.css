@@ -29,7 +29,6 @@
   1. General Styling  
 
 ------------------------------------------------*/
-
 body {
   width: 100%;
   height: 100%;
@@ -430,7 +429,36 @@ section {
   7. Gallery
 
 ------------------------------------------------*/
-
+#gallery{
+  margin-left: 11%;
+}
+#gallery h1{
+  margin-left: 40.5%;
+}
+#gallery-wrap{
+  overflow-x:hidden;
+  min-height: 100%;
+}
+.square {
+    float:left;
+    vertical-align: middle;
+    position: relative;
+    width: 30%;
+    padding-bottom: 1.5%%; /* = width for a 1:1 aspect ratio */
+    margin:1.1%;
+    overflow:hidden;
+}
+.table{
+    display:table;
+    height:70%;
+    width:70%;
+}
+.table-cell{
+    display:table-cell;
+    vertical-align:middle;
+    height:130%;
+    width:130%;
+}
 /*----------------------------------------------- 
 
   8. Press
