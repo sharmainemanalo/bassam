@@ -417,9 +417,10 @@ section {
   5. Our Story
 
 ------------------------------------------------*/
-.image-bg-contact{
+.image-bg-ourstory{
   background: url(../img/ourstory.jpg) no-repeat center center scroll;
-    padding: 180px 0;
+  padding: 270px 0;
+  background-size: cover;
 }
 
 /*----------------------------------------------- 
@@ -479,18 +480,10 @@ section {
   9. Contact
 
 ------------------------------------------------*/
-
-<<<<<<< HEAD
 .image-bg-contact{
   background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
   padding: 270px 0;
   background-size: cover;
-=======
-.image-bg-ourstory{
-  background: url(../img/ourstory.jpg) no-repeat center center scroll;
-  background-size: cover;
-    padding: 270px 0;
->>>>>>> b67880979834f550bfb8925a1512a7e6723643fb
 }
 .contact-section {
   padding: 100px;
