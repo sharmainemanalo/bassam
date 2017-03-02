@@ -15,7 +15,12 @@
   2. Nav Bar
   3. Header
   4. Content
-  5. Footer
+  5. Our Story
+  6. Menu
+  7. Gallery
+  8. Press
+  9. Contact
+  10. Footer
   
 -------------------------------------------*/
 
@@ -333,17 +338,6 @@ body {
   padding: 100px;
   background-color: #e1dad5;
 }
-.download-section {
-  width: 100%;
-  padding: 50px 0;
-  color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
 #map {
   width: 100%;
   height: 200px;
@@ -363,6 +357,32 @@ body {
     height: 400px;
     margin-top: 250px;
   }
+}
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.image-bg-fixed-height {
+  background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
+    height: 450px;
+}
+.img-center {
+  margin: 0 auto;
+}
+section {
+    padding: 75px 0;
+}
+.section-heading {
+    margin: 30px 0;
+    font-size: 4em;
+}
+
+.section-lead {
+    margin: 30px 0;
 }
 .btn {
   text-transform: uppercase;
@@ -390,6 +410,46 @@ body {
 /*----------------------------------------------- 
 
   5. Footer
+
+------------------------------------------------*/
+
+/*----------------------------------------------- 
+
+  6. Menu
+
+------------------------------------------------*/
+
+/*----------------------------------------------- 
+
+  7. Gallery
+
+------------------------------------------------*/
+
+/*----------------------------------------------- 
+
+  8. Press
+
+------------------------------------------------*/
+
+/*----------------------------------------------- 
+
+  9. Contact
+
+------------------------------------------------*/
+
+.image-bg-contact{
+  background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
+    padding: 180px 0;
+}
+
+.contact-section {
+  padding: 100px;
+  background-color: #e1dad5;
+}
+
+/*----------------------------------------------- 
+
+  10. Footer
 
 ------------------------------------------------*/
 
@@ -422,4 +482,9 @@ footer p {
   letter-spacing: 5px; 
   font-size: 12px;
   color: #ffffff;
+}
+
+
+.section-paragraph {
+    margin: 30px 0;
 }
