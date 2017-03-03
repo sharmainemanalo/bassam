@@ -108,7 +108,7 @@ img::-moz-selection {
 ------------------------------------------------*/
 
 .navbar-custom {
-  margin-bottom: 0;
+  margin: 0px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -121,7 +121,6 @@ img::-moz-selection {
 .navbar-custom .container {
   width: 100%;
 }
-
 .navbar-custom .logo {
   margin-top: 12px;
   margin-left: 10px;
@@ -137,7 +136,7 @@ img::-moz-selection {
   outline: none;
 }
 .navbar-custom .navbar-brand {
-  font-weight: 700;
+  font-weight: 600;
 }
 .navbar-custom .navbar-brand:focus {
   outline: none;
@@ -170,9 +169,10 @@ img::-moz-selection {
 .navbar-custom .nav li.active a:hover {
   color: white;
 }
+/* Desktop */
 @media (min-width: 750px) {
   .navbar-custom {
-    padding: 20px 0;
+    padding: 0px 0;
     border-bottom: none;
     letter-spacing: 1px;
     background: transparent;
@@ -185,6 +185,7 @@ img::-moz-selection {
     background: rgba(43, 48, 55, 1);
   }
 }
+/* Mobile */
 @media (max-width: 750px) {
   .navbar-custom {
     background: transparent;
@@ -258,7 +259,6 @@ img::-moz-selection {
     font-style: italic;
   }
 }
-
 .btn-circle {
   width: 70px;
   height: 70px;
@@ -354,7 +354,7 @@ img::-moz-selection {
     padding-top: 0px;
   }
   .our-story-section {
-    padding: 10%; 
+    padding: 100px 60px; 
   }
   .download-section {
     padding: 100px 0;
@@ -562,7 +562,7 @@ div.row-2, div.row-3, div.row-4
   padding: 100px;
   background-color: #2b3037;
 }
-.contact-section p, a, h2 {
+.contact-section p, .contact-section a, .contact-section h2 {
   color: #f4f4f4;
 }
 .contact-map {
