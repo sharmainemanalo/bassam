@@ -449,29 +449,28 @@ section {
   overflow-x:hidden;
   min-height: 100%;
 }
-.square {
-    float:left;
-    vertical-align: middle;
-    position: relative;
-    width: 30%;
-    padding-bottom: 1.5%; /* = width for a 1:1 aspect ratio */
-    margin:1%;
-    overflow:hidden;
+.thumbnails a{
+    float: middle;
+    width: 33%;
+    padding-right: 40px;
+    margin-bottom: 40px;
+    box-sizing: border-box;   
 }
-.table{
-    display:table;
-    height:70%;
-    width:70%;
+.thumbnails{
+  margin-right: -40px;
 }
-.table-cell{
-    display:table-cell;
-    vertical-align:middle;
-    height:130%;
-    width:130%;
+.thumbnails img{
+  display: block;
+  transition: all .2s ease-in-out;
 }
-.image-bg-gallery{
-  background:url('../img/galleryTest.png')no-repeat center center scroll;
-  padding: 180px 0;
+.thumbnails img:hover{
+  transform: scale(1) rotate(2deg);
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+
+}
+.thumbnails:hover img{
+  opacity: .6;
+  transform: scale(.90);
 }
 
 /* Sharmaine's code */
