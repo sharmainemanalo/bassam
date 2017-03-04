@@ -438,6 +438,7 @@ section {
   7. Gallery
 
 ------------------------------------------------*/
+
 #gallery{
   margin-left: 9.5%;
 }
@@ -472,6 +473,34 @@ section {
   background:url('../img/galleryTest.png')no-repeat center center scroll;
   padding: 180px 0;
 }
+
+/* Sharmaine's code */
+.gallery {
+  margin: 0px;
+}
+.gallery-section {
+  display: inline-block;
+  padding: 100px;
+  background: #f4f4f4;
+}
+.thumbnail {
+  border: 0px;
+  background: transparent;
+  padding: 10px;
+  margin: 0px;
+  line-height: 0px;
+}
+.thumbnail a > img, .thumbnail > img {
+    margin-right: auto;
+    margin-left: auto;
+}
+/* Mobile */
+@media (max-width: 750px) {
+  .gallery-section {
+    padding: 100px 10px;
+  }
+}
+
 /*----------------------------------------------- 
 
   8. Press
