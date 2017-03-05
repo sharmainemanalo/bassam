@@ -588,7 +588,7 @@ div.column {
 .image-bg-press {
   background: url('../img/press-img/bassam-press.jpg') no-repeat center center scroll;
   background-size: 100%;
-  padding: 180px 0;
+  padding: 15% 0;
 }
 
 .press-h1 {
@@ -629,6 +629,10 @@ div.row-2, div.row-3, div.row-4
 }
 
 @media (max-width: 750px) {
+  .image-bg-press {
+    padding: 25% 0;
+  }
+
   #press .press-credit-img1 {
     max-width: 50%;
     visibility: visible;
