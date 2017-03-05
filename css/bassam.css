@@ -122,8 +122,7 @@ img::-moz-selection {
   width: 100%;
 }
 .navbar-custom .logo {
-  margin-top: 12px;
-  margin-left: 10px;
+  margin-left: 15px;
   width: 40%;
 }
 .navbar-custom .navbar-toggle {
@@ -192,11 +191,31 @@ img::-moz-selection {
     border: none;
   }
   .navbar-custom.top-nav-collapse {
+    background: #00253c;
     padding: 0;
     background: transparent;
   }
   .navbar-custom .logo {
     width: 10%;
+  }
+  .navbar-header {
+    background: transparent;
+  }
+  .navbar-collapse {
+    max-height: 100% !important;
+    height: 100vh;
+    background-color:#00253c;
+    border-top: none;
+  }
+  .navbar-custom .nav li a {
+    padding-left: 60px;
+  }
+  .navbar-custom .logo {
+    margin-left: 15px;
+    width: 40%;
+  }
+  .hamburger-menu {
+    margin-right: 15px;
   }
 }
 
@@ -427,6 +446,18 @@ section {
   background-size: cover;
 }
 
+.image-bg-ourstory1{
+  background: url(../img/ourstory1.jpg) no-repeat center center scroll;
+  padding: 300px 0;
+  background-size: cover;
+}
+
+.image-bg-ourstory2{
+  background: url(../img/ourstory2.jpg) no-repeat center center scroll;
+  padding: 300px 0;
+  background-size: cover;
+}
+
 /*----------------------------------------------- 
 
   6. Menu
@@ -438,68 +469,52 @@ section {
   7. Gallery
 
 ------------------------------------------------*/
-
-#gallery{
-  margin-left: 9.5%;
+#gallery .square{
+  margin-bottom: 2%;
 }
 #gallery h1{
-  margin-left: 42%;
+  margin-left: 46%;
 }
-#gallery-wrap{
-  overflow-x:hidden;
-  min-height: 100%;
-}
-.thumbnails a{
-    float: middle;
-    width: 33%;
-    padding-right: 40px;
-    margin-bottom: 40px;
-    box-sizing: border-box;   
-}
-.thumbnails{
-  margin-right: -40px;
-}
-.thumbnails img{
-  display: block;
-  transition: all .2s ease-in-out;
-}
-.thumbnails img:hover{
-  transform: scale(1) rotate(2deg);
-  box-shadow: 0 0 10px rgba(0,0,0,.5);
-
-}
-.thumbnails:hover img{
-  opacity: .6;
-  transform: scale(.90);
-}
-
-/* Sharmaine's code */
 .gallery {
   margin: 0px;
 }
-.gallery-section {
-  display: inline-block;
-  padding: 100px;
-  background: #f4f4f4;
+.square{
+  width: 260px;
+  height: 260px;
 }
-.thumbnail {
-  border: 0px;
-  background: transparent;
-  padding: 10px;
-  margin: 0px;
-  line-height: 0px;
-}
-.thumbnail a > img, .thumbnail > img {
-    margin-right: auto;
-    margin-left: auto;
-}
-/* Mobile */
-@media (max-width: 750px) {
-  .gallery-section {
-    padding: 100px 10px;
+@media screen and (min-device-width:900px) {
+  div#showgrid {
+    width: 900px;
+    margin: auto;
   }
 }
 
+div.column {
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 2%;
+}
+
+.row {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+@media (min-device-width: 900px){
+  .column{
+    width: 260px;
+    height: 260px;
+    display: inline;
+    float: left;
+  }
+}
+
+.column {
+  width: 260px;
+  height: 260px;
+  margin: auto;
+}
 /*----------------------------------------------- 
 
   8. Press
@@ -640,6 +655,22 @@ div.row-2, div.row-3, div.row-4
 
 ------------------------------------------------*/
 
+.social-media {
+  color: #f4f4f4;
+  text-align: center;
+}
+.social-media p, .social-media a {
+  color: #f4f4f4;;
+  line-height: 50px;
+  font-size: 18px;
+}
+@media (max-width: 750px) {
+  .social-media p {
+    height: 40px;
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+}
 ul.banner-social-buttons {
   margin-top: 0;
 }
