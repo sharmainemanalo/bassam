@@ -464,6 +464,11 @@ section {
 
 ------------------------------------------------*/
 
+.image-bg-menu{
+  background: url('../img/menubanner.jpg') no-repeat center center scroll;
+  padding: 270px 0;
+  background-size: cover;
+}
 .menu {
   padding-bottom: 50px;
   background-color: #ffffff;
@@ -476,27 +481,42 @@ table {
 }
 th {
   padding: 15px;
-  text-align: center;
+  text-align: left;
   vertical-align: top;
    font-family: "learning-curve";
    font-size: 30px;
    color: #00253c;
    background-color: transparent;
 }
+.right {
+  text-align: right;
+}
 td {
     padding: 10px;
-  text-align: center;
+  text-align: left;
   vertical-align: bottom;
   color: #00253c;
   background-color:transparent;
+
 }
 .headertwo h2 {
   text-align: center;
   color: #00253c;
   background-color: #f4f4f4;
-  padding: 30px;
+  padding-bottom: 30px;
+  padding-top: 100px;
   margin: 0px;
  vertical-align: middle;
+}
+.headerthree h3 {
+ padding-top:100px;
+ padding-bottom:50px;
+  text-align: center;
+  vertical-align: middle;
+   font-family: "futura-pt";
+   font-size: 25px;
+   color: #00253c;
+   background-color: transparent;
 }
 .nav-tabs > li {
     float:none;
@@ -505,16 +525,47 @@ td {
    text-transform: uppercase;
    letter-spacing: 3px;
     zoom:1;
-    padding: 40px;    
-    
+    padding: 40px;       
 }
 .nav-tabs > li:active {
   background-color:transparent;
     text-decoration: underline;
 }
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.ten,
+.eleven,
+.twelve,
+.thirteen {
+  width: 75%;
+  margin-left: 15%;
+}
 @media only screen and (max-width:768px) {
-    .nav-tabs > li {
+  .nav-tabs > li {
       padding: 0px;      
+  }
+  .one,
+  .two,
+  .three,
+  .four,
+  .five,
+  .six,
+  .seven,
+  .eight,
+  .nine,
+  .ten,
+  .eleven,
+  .twelve,
+  .thirteen {
+    width: 100%;
+    margin-left: 0%;
   }
 }
 .nav-tabs {
@@ -524,9 +575,6 @@ td {
 }
 .container {
   padding: 0px;
-}
-.mocha {
-  margin-left: -0.6%;
 }
 
 /*----------------------------------------------- 
@@ -722,6 +770,7 @@ div.row-2, div.row-3, div.row-4
     background-size: cover;
   }
 }
+
 /*----------------------------------------------- 
 
   10. Footer
