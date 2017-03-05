@@ -437,6 +437,18 @@ section {
   background-size: cover;
 }
 
+.image-bg-ourstory1{
+  background: url(../img/ourstory1.jpg) no-repeat center center scroll;
+  padding: 300px 0;
+  background-size: cover;
+}
+
+.image-bg-ourstory2{
+  background: url(../img/ourstory2.jpg) no-repeat center center scroll;
+  padding: 300px 0;
+  background-size: cover;
+}
+
 /*----------------------------------------------- 
 
   6. Menu
