@@ -677,6 +677,13 @@ div.row-2, div.row-3, div.row-4
   9. Contact
 
 ------------------------------------------------*/
+#contact {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -65px; /* margin: 0 auto -80px; */
+}
+
 .image-bg-contact{
   background: url('../img/contactimgbg.jpg') no-repeat center center scroll;
   padding: 270px 0;
