@@ -678,7 +678,7 @@ div.row-2, div.row-3, div.row-4
 
 ------------------------------------------------*/
 .image-bg-contact{
-  background: url('img/contactimgbg.jpg') no-repeat center center scroll;
+  background: url('../img/contactimgbg.jpg') no-repeat center center scroll;
   padding: 270px 0;
   background-size: cover;
 }
