@@ -586,8 +586,9 @@ div.column {
 
 ------------------------------------------------*/
 .image-bg-press {
-  background: url('../img/downloads-bg.jpg') no-repeat center center scroll;
-    padding: 180px 0;
+  background: url('../img/press-img/bassam-press.jpg') no-repeat center center scroll;
+  background-size: 100%;
+  padding: 180px 0;
 }
 
 .press-h1 {
