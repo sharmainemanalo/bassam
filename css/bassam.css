@@ -617,11 +617,27 @@ div.row-2, div.row-3, div.row-4
   width: 20%;
 }
 
+#press .press-credit-img1,
+#press .press-credit-img2 {
+  max-width: 40%;
+  visibility: hidden;
+}
+
 .hr-line {
   visibility: hidden;
 }
 
 @media (max-width: 750px) {
+  #press .press-credit-img1 {
+    max-width: 50%;
+    visibility: visible;
+  }
+
+   #press .press-credit-img2 {
+    max-width: 40%;
+    visibility: visible;
+  }
+
   #press img {
     margin-left: -4.5%;
     margin-bottom: 3%;
