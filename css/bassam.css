@@ -717,7 +717,7 @@ div.row-2, div.row-3, div.row-4
     padding: 100px 10px;
   }
   .image-bg-contact{
-    background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
+    background: url('../img/contactimgbg.jpg') no-repeat center center scroll;
     padding: 250px 0;
     background-size: cover;
   }
