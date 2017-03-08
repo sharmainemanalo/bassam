@@ -195,8 +195,8 @@ img::-moz-selection {
     padding: 0;
     background: transparent;
   }
-  .navbar-custom .logo {
-    width: 10%;
+  .logo {
+    width: 0px;
   }
   .navbar-header {
     background: transparent;
@@ -204,7 +204,7 @@ img::-moz-selection {
   .navbar-collapse {
     max-height: 100% !important;
     height: 100vh;
-    background-color:#00253c;
+    background-color: #00253c;
     border-top: none;
   }
   .navbar-custom .nav li a {
