@@ -633,6 +633,11 @@ div.column {
   8. Press
 
 ------------------------------------------------*/
+#press {
+  overflow-x: hidden;
+}
+
+
 .image-bg-press {
   background: url('../img/press-img/bassam-press.jpg') no-repeat center center scroll;
   background-size: 100%;
@@ -640,7 +645,14 @@ div.column {
 }
 
 .press-h1 {
-  margin-top: 3%;
+  margin-top: 5%;
+}
+
+@media only screen and (max-width:768px) {
+  .press-h1 {
+    margin-top: 27%;
+  }
+
 }
 
 div.row-2, div.row-3, div.row-4
@@ -669,7 +681,6 @@ div.row-2, div.row-3, div.row-4
 #press .press-credit-img1,
 #press .press-credit-img2 {
   max-width: 40%;
-  visibility: hidden;
 }
 
 .hr-line {
@@ -682,13 +693,16 @@ div.row-2, div.row-3, div.row-4
   }
 
   #press .press-credit-img1 {
-    max-width: 50%;
-    visibility: visible;
+    max-width: 30%;
   }
 
    #press .press-credit-img2 {
     max-width: 40%;
-    visibility: visible;
+  }
+
+  #press .press-credit-img1,
+  #press .press-credit-img2 {
+    margin-top: 11%;
   }
 
   #press img {
@@ -706,11 +720,11 @@ div.row-2, div.row-3, div.row-4
   }
 
   #press .press-credit {
-    margin-top: -2%;
+    margin-top: 2%;
     font-size: 1.1em;
-    margin-left: 45%;
+    margin-left: 10%;
     text-align: right;
-    width: 40%;
+    width: 80%;
   }
 
   .hr-line {
