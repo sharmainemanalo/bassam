@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 3px;
 }
 p {
-  margin: 0 0 0px;
+  margin: 0 0 35px;
   font-size: 12px;
   line-height: 1.5;
   color: #00253c;
@@ -373,7 +373,7 @@ img::-moz-selection {
     padding-top: 0px;
   }
   .our-story-section {
-    padding: 0px 60px; 
+    padding: 100px 60px; 
   }
   .download-section {
     padding: 100px 0;
