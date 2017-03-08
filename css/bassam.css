@@ -251,7 +251,7 @@ img::-moz-selection {
   color: #ffffff;
 }
 .cafe-bassam-led {
-    width: 30%;
+    width: 60%;
 }
 @media (min-width: 768px) {
   .intro {
@@ -800,6 +800,7 @@ div.row-2, div.row-3, div.row-4
   .social-media p {
     height: 40px;
     font-size: 26px;
+    margin-top:40px;
   }
 }
 ul.banner-social-buttons {
