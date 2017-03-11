@@ -787,17 +787,18 @@ div.row-2, div.row-3, div.row-4
 
 ------------------------------------------------*/
 
-.social-media {
+.social-media, .social-media-contact {
   color: #f4f4f4;
   text-align: center;
 }
-.social-media p, .social-media a {
+.social-media p, .social-media-contact p,
+.social-media-contact a, .social-media a {
   color: #f4f4f4;;
   font-size: 18px;
   margin-bottom: 20px;
 }
 @media (max-width: 750px) {
-  .social-media p {
+  .social-media-contact p {
     height: 40px;
     font-size: 26px;
     margin-top:40px;
