@@ -639,6 +639,8 @@ div.column {
   8. Press
 
 ------------------------------------------------*/
+
+
 .image-bg-press {
   background: url('../img/press-img/bassam-press.jpg') no-repeat center center scroll;
   background-size: 100%;
@@ -649,19 +651,51 @@ div.column {
   margin-top: 3%;
 }
 
-div.row-2, div.row-3, div.row-4
-{
+.press-h1 { 
   margin-top: 5%;
 }
 
 #press p {
-  width: 50%;
+  width: 100%;
   text-align: justify;
+  padding-left: 2%;
+}
+
+#press img.news-icon {
+  width: 12%;
+}
+
+#press h3.title {
+  width: 100%;
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 3em;
+  color: #00253c;
+  letter-spacing: 3px;
+}
+
+#press .rowspace {
+  padding-top: 5%;
+}
+
+#press .readmorebot {
+  visibility: hidden;
+}
+
+#press .readmoretop a {
+  font-size: 1em;
+}
+
+#press img {
+  width: 100%;
 }
 
 
 #press .container {
-  margin-left: 15%;
+  /*margin-left: 15%;*/
+  padding: 0 5%;
 }
 
 #press .press-credit {
@@ -683,18 +717,30 @@ div.row-2, div.row-3, div.row-4
 }
 
 @media (max-width: 750px) {
+  #press {
+    overflow: hidden;
+  }
+
   .image-bg-press {
-    padding: 25% 0;
+    padding-top: 60%;
   }
 
-  #press .press-credit-img1 {
-    max-width: 50%;
-    visibility: visible;
+  #press img.news-icon {
+    width: 12%;
+    margin-left: 18%;
   }
 
-   #press .press-credit-img2 {
-    max-width: 40%;
+  #press .readmoretop {
+    visibility: hidden;
+  }
+
+  #press .readmorebot {
     visibility: visible;
+    padding-bottom: 25%;
+  }
+
+  .press-h1 { 
+    margin-top: 15%;
   }
 
   #press img {
@@ -702,9 +748,19 @@ div.row-2, div.row-3, div.row-4
     margin-bottom: 3%;
   }
 
+  #press h3.title {
+    text-align: center;
+    margin-left: -5%;
+    padding-top: 8%;
+    margin-bottom: 5%;
+    font-size: 2em;
+    font-weight: 700;
+  }
+
   #press p {
     width: 90%;
     font-size: 1.2em;
+    margin-top: -15%;
   }
 
   #press .container {
