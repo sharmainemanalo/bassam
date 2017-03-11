@@ -642,9 +642,9 @@ div.column {
 
 
 .image-bg-press {
-  background: url('../img/press-img/bassam-press.jpg') no-repeat center center scroll;
-  background-size: 100%;
-  padding: 15% 0;
+  background: url('../img/press-img/press-img.png') no-repeat center center scroll;
+  padding: 270px 0;
+  background-size: cover;
 }
 
 .press-h1 {
@@ -721,9 +721,9 @@ div.column {
     overflow: hidden;
   }
 
-  .image-bg-press {
+  /*.image-bg-press {
     padding-top: 60%;
-  }
+  }*/
 
   #press img.news-icon {
     width: 12%;
