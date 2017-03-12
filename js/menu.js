@@ -6,6 +6,22 @@ $(window).scroll(function(){
 });
 
 
+/*$(window).scroll(function() {
+// 100 = The point you would like to fade the nav in.
+  
+    if ($(window).scrollTop() > 100 ){
+    
+        $('.bg').addClass('show');
+    
+  } else {
+    
+    $('.bg').removeClass('show');
+    
+    };      
+});*/
+
+
+
 $(document).ready(function () {
     var scroll_start = 0;
     var startchange = $("#nav-change");
@@ -16,10 +32,14 @@ $(document).ready(function () {
             scroll_start = $(this).scrollTop();
             if (scroll_start > offset.top) {
                 $("nav").css('background-color', 'rgba(0,37,60,1)');
-
+                $("nav").css('-webkit-transition', 'all 1s ease-in-out');
+                $("nav").css('-moz-transition', 'all 1s ease-in-out');
+                $("nav").css('-o-transition', 'all 1s ease-in-out');
+                $("nav").css('transition', 'all 1s ease-in-out');
             } else {
                 $('nav').css('background-color', 'transparent');
             }
         });
     }
 });
+
