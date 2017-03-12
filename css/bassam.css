@@ -470,7 +470,6 @@ section {
   6. Menu
 
 ------------------------------------------------*/
-
 .image-bg-menu{
   background: url('../img/menubanner.jpg') no-repeat center center scroll;
   padding: 270px 0;
@@ -525,6 +524,36 @@ td {
    color: #00253c;
    background-color: transparent;
 }
+.headerfour h4 {
+ padding-top:10px;
+ padding-bottom:30px;
+  text-align: center;
+  vertical-align: middle;
+   font-family: "futura-pt";
+   font-size: 20px;
+   color: #00253c;
+   background-color: transparent;
+   margin-top:-5%;
+}
+.headerfive h5 {
+  text-align: center;
+  vertical-align: top;
+   padding-top: 100px;
+   font-size: 20px;
+   color: #00253c;
+   background-color: transparent;
+  
+}
+.headersix h6 {
+  text-align: center;
+  vertical-align: top;
+   padding: 15px;
+   font-size: 20px;
+   color: #00253c;
+   background-color: transparent;
+  
+}
+
 .nav-tabs > li {
     float:none;
     display: inline-block;
@@ -532,7 +561,8 @@ td {
    text-transform: uppercase;
    letter-spacing: 3px;
     zoom:1;
-    padding: 40px;       
+    padding: 40px;      
+     padding-bottom: 0px;   
 }
 .nav-tabs > li:active {
   background-color:transparent;
@@ -554,6 +584,15 @@ td {
   width: 75%;
   margin-left: 15%;
 }
+.tea {
+  width: 75%;
+    margin-left: 15%;
+}
+.tea1 {
+  width: 75%;
+    margin-left: 35%;
+}
+
 @media only screen and (max-width:768px) {
   .nav-tabs > li {
       padding: 0px;      
@@ -574,6 +613,10 @@ td {
     width: 100%;
     margin-left: 0%;
   }
+  .tea1 {
+  width: 75%;
+    margin-left: 15%;
+}
 }
 .nav-tabs {
     text-align:center;
