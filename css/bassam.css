@@ -588,51 +588,20 @@ td {
   7. Gallery
 
 ------------------------------------------------*/
-#gallery .square{
-  margin-bottom: 2%;
+.image-bg-gallery {
+  background: url('../img/4.jpg') no-repeat center center scroll;
+  padding: 270px 0;
+  background-size: cover;
 }
-#gallery h1{
-  margin-left: 46%;
+.gallery-section {
+  padding: 100px;
+  background-color: #ffffff;
 }
-.gallery {
-  margin: 0px;
+.image-gallery-item { 
+  margin-bottom: 30px;
 }
-.square{
-  width: 260px;
-  height: 260px;
-}
-@media screen and (min-device-width:900px) {
-  div#showgrid {
-    width: 900px;
-    margin: auto;
-  }
-}
+@media (max-width: 750px) {
 
-div.column {
-  border-style: solid;
-  border-width: 1px;
-  margin-right: 2%;
-}
-
-.row {
-  width: 100%;
-  margin: auto;
-  margin-bottom: 2%;
-}
-
-@media (min-device-width: 900px){
-  .column{
-    width: 260px;
-    height: 260px;
-    display: inline;
-    float: left;
-  }
-}
-
-.column {
-  width: 260px;
-  height: 260px;
-  margin: auto;
 }
 /*----------------------------------------------- 
 
