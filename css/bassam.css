@@ -595,11 +595,23 @@ td {
   background-size: cover;
 }
 .gallery-section {
-  padding: 100px;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
   background-color: #ffffff;
 }
 .image-gallery-item { 
   margin-bottom: 30px;
+}
+@media (max-width: 750px) {
+  .gallery-section {
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .image-gallery-item { 
+    margin-bottom: 0px;
+  }
 }
 /*----------------------------------------------- 
 
