@@ -130,6 +130,16 @@
     <!-- Theme JavaScript -->
     <script src="js/menu.js"></script>
     <script src="js/grayscale.min.js"></script>
+    <script type="text/javascript">
+            $('.contact-map').click(function () {
+            $('.contact-map iframe').css("pointer-events", "auto");
+        });
+
+        $( ".contact-map" ).mouseleave(function() {
+          $('.contact-map iframe').css("pointer-events", "none"); 
+        });
+    </script>
+
 
 </body>
 
