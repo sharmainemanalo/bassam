@@ -163,11 +163,11 @@ img::-moz-selection {
 .navbar-custom .nav li.active {
   outline: none;
 }
-.navbar-custom .nav li.active a {
+.navbar-custom .nav li a.active {
   color: rgba(231, 220, 82, 1);
 }
 .navbar-custom .nav li.active a:hover {
-  color: white;
+  /*color: white;*/
 }
 /* Desktop */
 @media (min-width: 750px) {
@@ -643,20 +643,17 @@ div.column {
 
 
 .image-bg-press {
-  background: url('../img/press-img/press-img.png') no-repeat center center scroll;
+  background: url('../img/press-img/1.png') no-repeat center center scroll;
   padding: 270px 0;
   background-size: cover;
 }
 
 .press-h1 {
-  font-size: 5em;
-  font-weight: 300;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
-.press-h1 { 
-  padding-top: 150px;
-  padding-bottom: 100px;
-}
+
 
 #press p {
   width: 100%;
