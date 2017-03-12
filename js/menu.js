@@ -16,6 +16,7 @@ $(document).ready(function () {
             scroll_start = $(this).scrollTop();
             if (scroll_start > offset.top) {
                 $("nav").css('background-color', 'rgba(0,37,60,1)');
+
             } else {
                 $('nav').css('background-color', 'transparent');
             }
