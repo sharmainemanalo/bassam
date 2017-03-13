@@ -369,6 +369,15 @@ img::-moz-selection {
 .our-story-section {
   padding: 100px;
   background-color: #e1dad5;
+  text-align: center;
+}
+.our-story-section1{
+  padding: 100px;
+  background-color: #e1dad5;
+  text-align: left;
+}
+.our-story-section1 h2{
+  text-align: center;
 }
 #map {
   width: 100%;
@@ -448,7 +457,7 @@ section {
 ------------------------------------------------*/
 
 .image-bg-ourstory{
-  background: url(../img/ourstory.jpg) no-repeat center center scroll;
+  background: url(../img/banner.png) no-repeat center center scroll;
   padding: 270px 0;
   background-size: cover;
 }
@@ -470,7 +479,6 @@ section {
   6. Menu
 
 ------------------------------------------------*/
-
 .image-bg-menu{
   background: url('../img/menubanner.jpg') no-repeat center center scroll;
   padding: 270px 0;
@@ -525,6 +533,36 @@ td {
    color: #00253c;
    background-color: transparent;
 }
+.headerfour h4 {
+ padding-top:10px;
+ padding-bottom:30px;
+  text-align: center;
+  vertical-align: middle;
+   font-family: "futura-pt";
+   font-size: 20px;
+   color: #00253c;
+   background-color: transparent;
+   margin-top:-5%;
+}
+.headerfive h5 {
+  text-align: center;
+  vertical-align: top;
+   padding-top: 100px;
+   font-size: 20px;
+   color: #00253c;
+   background-color: transparent;
+  
+}
+.headersix h6 {
+  text-align: center;
+  vertical-align: top;
+   padding: 15px;
+   font-size: 20px;
+   color: #00253c;
+   background-color: transparent;
+  
+}
+
 .nav-tabs > li {
     float:none;
     display: inline-block;
@@ -532,7 +570,8 @@ td {
    text-transform: uppercase;
    letter-spacing: 3px;
     zoom:1;
-    padding: 40px;       
+    padding: 40px;      
+     padding-bottom: 0px;   
 }
 .nav-tabs > li:active {
   background-color:transparent;
@@ -554,6 +593,15 @@ td {
   width: 75%;
   margin-left: 15%;
 }
+.tea {
+  width: 75%;
+    margin-left: 15%;
+}
+.tea1 {
+  width: 75%;
+    margin-left: 35%;
+}
+
 @media only screen and (max-width:768px) {
   .nav-tabs > li {
       padding: 0px;      
@@ -574,6 +622,10 @@ td {
     width: 100%;
     margin-left: 0%;
   }
+  .tea1 {
+  width: 75%;
+    margin-left: 15%;
+}
 }
 .nav-tabs {
     text-align:center;
@@ -589,51 +641,42 @@ td {
   7. Gallery
 
 ------------------------------------------------*/
-#gallery .square{
-  margin-bottom: 2%;
+.image-bg-gallery {
+  background: url('../img/4.jpg') no-repeat center center scroll;
+  padding: 270px 0;
+  background-size: cover;
 }
-#gallery h1{
-  margin-left: 46%;
+.gallery-section {
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #ffffff;
 }
-.gallery {
-  margin: 0px;
+.image-gallery-item { 
+  margin-bottom: 30px;
 }
-.square{
-  width: 260px;
-  height: 260px;
+.galleryContainer{
+  display: flex;
+  justify-content: center;
 }
-@media screen and (min-device-width:900px) {
-  div#showgrid {
-    width: 900px;
-    margin: auto;
+@media (max-width: 736px) {
+  .gallery-section {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-}
-
-div.column {
-  border-style: solid;
-  border-width: 1px;
-  margin-right: 2%;
-}
-
-.row {
-  width: 100%;
-  margin: auto;
-  margin-bottom: 2%;
-}
-
-@media (min-device-width: 900px){
-  .column{
-    width: 260px;
-    height: 260px;
-    display: inline;
-    float: left;
+  .galleryContainer{
+    width: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
-}
-
-.column {
-  width: 260px;
-  height: 260px;
-  margin: auto;
+  .image-gallery-item {
+    margin-bottom: 20px;
+  }
+  .image-bg-gallery{
+    padding: 100px 0;
+  }
 }
 /*----------------------------------------------- 
 

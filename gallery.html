@@ -3,29 +3,28 @@
 
 <head>
 
-    <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Café Bassam</title>
+    <title>Café Bassam - Gallery</title>
 
-    <!-- Bootstrap -->
+    <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
     <script src="https://use.typekit.net/qyz7juc.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.1.1/ekko-lightbox.css" rel="stylesheet">
 
     <!-- Our CSS -->
     <link href="css/bassam.css" rel="stylesheet">
-    <link href="css/lightbox.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,7 +42,7 @@
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"><i class="fa fa-bars hamburger-menu"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="index.html">
+                <a class="navbar-brand page-scroll" href="">
                     <img class="logo" src="img/logo.png">
                 </a>
             </div>
@@ -77,90 +76,50 @@
         <!-- /.container -->
     </nav>
 
-    <div id="nav-change"></div>
-
-    <!-- Contact Image Banner -->
-    <header class="image-bg-fluid-height image-bg-contact">
+    <!-- Gallery Image Banner -->
+    <header class="image-bg-fluid-height image-bg-gallery">
         <img class="img-responsive img-center">
     </header>
-    <!-- Gallery -->
 
-        <section id = "gallery">
-            <h1>Gallery</h1>
-                <div id="showgrid">
-                    <div class="row">
-                        <div class="column">
-                            <div class = "nailthumb-container square" id = "square">
-                                <a href = "img/1.jpg" data-lightbox="boxGallery">
-                                    <img src = "img/1.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class = "nailthumb-container square" id = "square">
-                                <a href = "img/2.jpg" data-lightbox="boxGallery">
-                                    <img src = "img/2.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class = "nailthumb-container square" id = "square">
-                                <a href = "img/3.jpg" data-lightbox="boxGallery">
-                                    <img src = "img/3.jpg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="column">
-                            <div class = "nailthumb-container square" id = "square">
-                                <a href = "img/4.jpg" data-lightbox="boxGallery">
-                                    <img src = "img/4.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class = "nailthumb-container square" id = "square">
-                                <a href = "img/5.jpg" data-lightbox="boxGallery">
-                                    <img src = "img/5.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class = "nailthumb-container square" id = "square">
-                                <a href = "img/6.jpg" data-lightbox="boxGallery">
-                                    <img src = "img/6.jpg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="column">
-                            <div class = "nailthumb-container square" id = "square">
-                                <a href = "img/7.jpg" data-lightbox="boxGallery">
-                                    <img src = "img/7.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class = "nailthumb-container square" id = "square">
-                                <a href = "img/8.jpg" data-lightbox="boxGallery">
-                                    <img src = "img/8.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class = "nailthumb-container square" id = "square">
-                                <a href = "img/9.jpg" data-lightbox="boxGallery">
-                                    <img src = "img/9.jpg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-        </section>
-
+    <!-- Gallery Section -->
+        <div class="gallery-section text-center">
+            <h2>Gallery</h2>
+            <div class="row">
+                <!-- <div class = "galleryContainer"> -->
+                <a href="img/gallery/1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                    <img src="img/gallery/1T.jpg" class="img-responsive image-gallery-item">
+                </a>
+                <a href="img/gallery/2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                    <img src="img/gallery/2T.jpg" class="img-responsive image-gallery-item">
+                </a>
+                <a href="img/gallery/3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                    <img src="img/gallery/3T.jpg" class="img-responsive image-gallery-item">
+                </a>
+                <!-- </div> -->
+            </div>
+            <div class="row">
+                <a href="img/gallery/4.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                    <img src="img/gallery/4T.jpg" class="img-responsive image-gallery-item">
+                </a>
+                <a href="img/gallery/5.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                    <img src="img/gallery/5T.jpg" class="img-responsive image-gallery-item">
+                </a>
+                <a href="img/gallery/6.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                    <img src="img/gallery/6T.jpg" class="img-responsive image-gallery-item">
+                </a>
+            </div>
+            <div class="row">
+                <a href="img/gallery/7.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                    <img src="img/gallery/7T.jpg" class="img-responsive image-gallery-item">
+                </a>
+                <a href="img/gallery/8.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                    <img src="img/gallery/8T.jpg" class="img-responsive image-gallery-item">
+                </a>
+                <a href="img/gallery/9.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                    <img src="img/gallery/9T.jpg" class="img-responsive image-gallery-item">
+                </a>
+            </div>
+        </div>
     <!-- Footer -->
     <footer>
         <div class="social-media">
@@ -171,7 +130,7 @@
             </p>
         </div>
         <div class="container text-center">
-            <p>CAFÉ BASSAM &copy; 2017</p>
+            <p>3088 FIFTH AVE SAN DIEGO, CA 92103</p>
         </div>
     </footer>
 
@@ -189,17 +148,14 @@
 
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
-    <script type = "text/javascript" src = "js/lightbox.js"></script>
-    <script src="js/jasny-bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/jquery.sidr/2.2.1/jquery.sidr.min.js"></script>
-    <script type="text/javascript" src="path/to/jquery.js"></script>
-    <script type="text/javascript" src="js/jquery.nailthumb.1.1.min.js"></script>
-    <script type="text/javascript" src="path/to/jquery.nailthumb.1.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.1.1/ekko-lightbox.js"></script>
     <script type="text/javascript">
-                jQuery(document).ready(function() {
-                    jQuery('.nailthumb-container').nailthumb();
-                });
+        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+        });
     </script>
+
 </body>
 
 </html>
