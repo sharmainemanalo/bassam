@@ -646,14 +646,27 @@ td {
 .image-gallery-item { 
   margin-bottom: 30px;
 }
-@media (max-width: 750px) {
+.galleryContainer{
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 736px) {
   .gallery-section {
-    padding-top: 100px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-  .image-gallery-item { 
-    margin-bottom: 0px;
+  .galleryContainer{
+    width: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .image-gallery-item {
+    margin-bottom: 20px;
+  }
+  .image-bg-gallery{
+    padding: 100px 0;
   }
 }
 /*----------------------------------------------- 
