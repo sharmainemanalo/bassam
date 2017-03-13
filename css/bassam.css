@@ -452,7 +452,7 @@ section {
 ------------------------------------------------*/
 
 .image-bg-ourstory{
-  background: url(../img/ourstory.jpg) no-repeat center center scroll;
+  background: url(../img/banner.png) no-repeat center center scroll;
   padding: 270px 0;
   background-size: cover;
 }
