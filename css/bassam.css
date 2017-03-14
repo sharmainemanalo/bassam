@@ -751,6 +751,25 @@ td {
   padding-bottom: 50px;
 }
 
+#press h6 {
+  text-align: center;
+  background: transparent;
+  border: 2px #2b3037 solid;
+  padding: 10px;
+}
+
+#press .press-btn {
+  right: 0px;
+  position: absolute;
+}
+
+#press h6:hover {
+  background: #2b3037;
+  border: 2px #2b3037 solid;
+  padding: 10px;
+  color: #fff;
+}
+
 #press p {
   width: 100%;
   text-align: justify;
@@ -799,7 +818,8 @@ td {
 
 
 .hr-divider {
-  margin-top: 30%;
+  margin: 200px 0;
+  margin-left: 25%;
   width: 55%;
   background-color: #000;
   display: block;
@@ -807,6 +827,23 @@ td {
   border: 0;
   border-top: 1px solid #ccc;
 }
+
+#press .container {
+  margin-bottom: -200px;
+}
+
+/*
+h6.btn-outline-dark {
+  background: transparent;
+  border: 2px #2b3037 solid;
+  padding: 10px;
+}
+h6.btn-outline-dark:hover {
+  background: #2b3037;
+  border: 2px #2b3037 solid;
+  padding: 10px;
+  color: #fff;
+}*/
 
 
 @media (max-width: 750px) {
