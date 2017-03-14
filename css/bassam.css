@@ -862,8 +862,7 @@ h6.btn-outline-dark:hover {
 
 
   .hr-divider {
-    margin-top: -50px;
-    margin-left: 75px;
+    margin-bottom: 70px;
   }
 
   #press h2 {
@@ -903,12 +902,13 @@ h6.btn-outline-dark:hover {
   #press p {
     width: 90%;
     font-size: 1.2em;
-    margin-top: -15%;
+    margin-top: 5px;
   }
 
   #press .container {
     margin-left: 3%;
     padding: 0 5%;
+    margin-bottom: 5px;
   }
 
 
