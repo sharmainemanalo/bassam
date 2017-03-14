@@ -874,6 +874,11 @@ h6.btn-outline-dark:hover {
     width: 65%;
   }
 
+  #press .date-div {
+    margin-left: 18%;
+    width: 100%;
+  }
+
   #press h2 {
     padding-bottom: 0px;
   }
