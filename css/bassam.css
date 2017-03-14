@@ -96,7 +96,6 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
-
 .futura {
   font-family: "futura-pt";
   font-weight: 500;
@@ -360,6 +359,22 @@ img::-moz-selection {
 }
 .container {
   width: 100%;
+}
+.content-section a {
+  color: #2b3037;
+}
+.btn-outline-dark {
+  background: transparent;
+  border: 2px #2b3037 solid;
+  padding: 10px;
+}
+.btn-outline-dark:hover {
+  background: #2b3037;
+  border: 2px #2b3037 solid;
+  padding: 10px;
+}
+.content-section a:hover {
+  color: #e1dad5;
 }
 .row {
   background-color: inherit;
@@ -859,7 +874,6 @@ td {
   height: 100%;
   margin: 0 auto -65px; /* margin: 0 auto -80px; */
 }
-
 .image-bg-contact{
   background: url('../img/contactimgbg.jpg') no-repeat center center scroll;
   padding: 270px 0;
@@ -869,8 +883,24 @@ td {
   padding: 100px;
   background-color: #2b3037;
 }
-.contact-section p, .contact-section a, .contact-section h2 {
-  color: #f4f4f4;
+.contact-section p, .contact-section h2 {
+  color: #F4f4f4;
+}
+.contact-section a {
+  color: #c1c1c1;
+}
+.contact-section a:hover {
+  color: #2b3037;
+}
+.btn-outline-light {
+  background: transparent;
+  border: 2px #c1c1c1 solid;
+  padding: 10px;
+}
+.btn-outline-light:hover {
+  background: #F4f4f4;
+  border: 2px #F4F4f4 solid;
+  padding: 10px;
 }
 .contact-map {
   width: 100%;
