@@ -861,12 +861,17 @@ h6.btn-outline-dark:hover {
   }
 
   #press .press-btn {
-    right: 23%;
-    position: absolute;
+    margin-bottom: -35%;
+    margin-left: 15%;
+    position: relative;
+    width: 65%;
   }
 
   .hr-divider {
-    margin-bottom: 70px;
+    margin-left: 15%;
+    position: relative;
+    margin-bottom: 65px;
+    width: 65%;
   }
 
   #press h2 {
