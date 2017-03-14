@@ -695,10 +695,11 @@ td {
   background-size: cover;
 }
 .gallery-section {
-  padding-top: 100px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 100px;
   background-color: #ffffff;
+}
+.gallery-section h2 {
+  margin-bottom: 90px;
 }
 .image-gallery-item { 
   margin-bottom: 30px;
@@ -716,6 +717,10 @@ td {
     padding-top: 55px;
     padding-left: 2px;
     padding-right: 2px;
+    padding-bottom: 55px;
+  }
+  .gallery-section h2 {
+    margin-bottom: 55px;
   }
   .image-gallery-item {
     margin-bottom: 2px;
