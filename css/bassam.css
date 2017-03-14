@@ -501,6 +501,9 @@ section {
   6. Menu
 
 ------------------------------------------------*/
+#menu {
+  overflow: hidden;
+}
 .image-bg-menu{
   background: url('../img/menubanner.jpg') no-repeat center center scroll;
   padding: 200px 0;
@@ -578,7 +581,8 @@ td {
 .headersix h6 {
   text-align: center;
   vertical-align: top;
-   padding: 15px;
+   padding-bottom: 30px;
+   padding-top: 50px;
    font-size: 20px;
    color: #00253c;
    background-color: transparent;
@@ -597,13 +601,15 @@ td {
 }
 .nav-tabs > li:active {
   background-color:transparent;
-    text-decoration: underline;
 }
 .one,
 .two,
 .three,
 .four,
-.five,
+.five {
+  width: 75%;
+  margin-left: 15%;
+}
 .six,
 .seven,
 .eight,
@@ -612,16 +618,28 @@ td {
 .eleven,
 .twelve,
 .thirteen {
-  width: 75%;
   margin-left: 15%;
+  width: 75%;
+  margin-top: 100px;
 }
+ 
 .tea {
   width: 75%;
     margin-left: 15%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .tea1 {
   width: 75%;
     margin-left: 35%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.tea2 {
+  width: 75%;
+    margin-left: 35%;
+    
 }
 
 @media only screen and (max-width:768px) {
@@ -630,9 +648,11 @@ td {
   }
   .one,
   .two,
-  .three,
-  .four,
-  .five,
+  .three {
+    width: 75%;
+    margin-left: 12%;
+  }
+  
   .six,
   .seven,
   .eight,
@@ -641,12 +661,18 @@ td {
   .eleven,
   .twelve,
   .thirteen {
-    width: 100%;
-    margin-left: 0%;
+    width: 75%;
+    margin-left: 12%;
   }
-  .tea1 {
+  .four,
+  .five {
+    width: 75%;
+    margin-left: 12%;
+  }
+  .tea1,
+  .tea2 {
   width: 75%;
-    margin-left: 15%;
+    margin-left: 12%;
 }
 }
 .nav-tabs {
