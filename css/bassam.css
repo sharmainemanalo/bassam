@@ -75,7 +75,7 @@ a {
 }
 a:hover, a:focus {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #00253c;
 }
 .light {
   font-weight: 400;
@@ -96,7 +96,6 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
-
 .futura {
   font-family: "futura-pt";
   font-weight: 500;
@@ -167,7 +166,7 @@ img::-moz-selection {
   color: rgba(231, 220, 82, 1);
 }
 .navbar-custom .nav li.active a:hover {
-  /*color: white;*/
+  /*color: #fff;*/
 }
 /* Desktop */
 @media (min-width: 750px) {
@@ -361,6 +360,22 @@ img::-moz-selection {
 .container {
   width: 100%;
 }
+.content-section a {
+  color: #2b3037;
+}
+.btn-outline-dark {
+  background: transparent;
+  border: 2px #2b3037 solid;
+  padding: 10px;
+}
+.btn-outline-dark:hover {
+  background: #2b3037;
+  border: 2px #2b3037 solid;
+  padding: 10px;
+}
+.content-section a:hover {
+  color: #e1dad5;
+}
 .row {
   background-color: inherit;
   width: 100%;
@@ -369,6 +384,18 @@ img::-moz-selection {
 .our-story-section {
   padding: 100px;
   background-color: #e1dad5;
+  text-align: center;
+}
+.our-story-section1{
+  padding: 100px;
+  background-color: #e1dad5;
+  text-align: left;
+}
+.our-story-section1 h2{
+  text-align: center;
+}
+.our-story-section1 p{
+  margin: 0px;
 }
 #map {
   width: 100%;
@@ -376,10 +403,13 @@ img::-moz-selection {
   margin-top: 100px;
 }
 @media (max-width: 750px) {
-  .content-section {
+  .content-section 
     padding-top: 0px;
   }
   .our-story-section {
+    padding: 100px 60px;
+  } 
+  .our-story-section1 {
     padding: 100px 60px; 
   }
   .download-section {
@@ -448,8 +478,8 @@ section {
 ------------------------------------------------*/
 
 .image-bg-ourstory{
-  background: url(../img/ourstory.jpg) no-repeat center center scroll;
-  padding: 270px 0;
+  background: url(../img/banner.png) no-repeat center center scroll;
+  padding: 200px 0;
   background-size: cover;
 }
 
@@ -465,6 +495,7 @@ section {
   background-size: cover;
 }
 
+
 /*----------------------------------------------- 
 
   6. Menu
@@ -475,7 +506,7 @@ section {
 }
 .image-bg-menu{
   background: url('../img/menubanner.jpg') no-repeat center center scroll;
-  padding: 270px 0;
+  padding: 200px 0;
   background-size: cover;
 }
 .menu {
@@ -660,7 +691,7 @@ td {
 ------------------------------------------------*/
 .image-bg-gallery {
   background: url('../img/4.jpg') no-repeat center center scroll;
-  padding: 270px 0;
+  padding: 200px 0;
   background-size: cover;
 }
 .gallery-section {
@@ -672,14 +703,34 @@ td {
 .image-gallery-item { 
   margin-bottom: 30px;
 }
-@media (max-width: 750px) {
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+}
+
+@media (max-width: 736px) {
   .gallery-section {
-    padding-top: 100px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 55px;
+    padding-left: 2px;
+    padding-right: 2px;
   }
-  .image-gallery-item { 
-    margin-bottom: 0px;
+  .image-gallery-item {
+    margin-bottom: 2px;
+  }
+  .image-bg-gallery{
+    padding: 100px 0;
+  }
+  .row.no-gutters {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .row.no-gutters > [class^="col-"],
+  .row.no-gutters > [class*=" col-"] {
+    padding-right: 1px;
+    padding-left: 1px;
   }
 }
 /*----------------------------------------------- 
@@ -691,15 +742,14 @@ td {
 
 .image-bg-press {
   background: url('../img/press-img/1.png') no-repeat center center scroll;
-  padding: 270px 0;
+  padding: 200px 0;
   background-size: cover;
 }
 
-.press-h1 {
-  padding-top: 100px;
+#press h2 {
+  text-align: center;
+  padding-bottom: 50px;
 }
-
-
 
 #press p {
   width: 100%;
@@ -715,9 +765,9 @@ td {
   width: 100%;
   margin: 0 0 35px;
   text-transform: uppercase;
-  font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
-  font-size: 3.3em;
+  font-size: 3.3em;*/
   color: #00253c;
   letter-spacing: 3px;
 }
@@ -744,23 +794,9 @@ td {
 
 
 #press .container {
-  /*margin-left: 15%;*/
   padding: 0 15%;
 }
 
-/*#press .press-credit {
-  margin-left: 25%;
-  text-align: right;
-  font-size: 1.3em;
-  margin-top: -2%;
-  width: 20%;
-}
-
-#press .press-credit-img1,
-#press .press-credit-img2 {
-  max-width: 40%;
-  visibility: hidden;
-}*/
 
 .hr-divider {
   margin-top: 30%;
@@ -771,16 +807,6 @@ td {
   border: 0;
   border-top: 1px solid #ccc;
 }
-
-/*.hr-line-header {
-  width: 5%;
-  margin-top: -135px;
-  background-color: #ff0000;
-  display: block;
-  height: 5px;
-  border: 0;
-  border-top: 1px solid #ccc;
-}*/
 
 
 @media (max-width: 750px) {
@@ -793,25 +819,14 @@ td {
   }
 
 
-
   .hr-divider {
     margin-top: -50px;
     margin-left: 75px;
   }
 
-  /*.hr-line-header {
-    width: 20%;
-    margin-top: -120px;
-    background-color: #ff0000;
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-  }*/
-
-  /*.image-bg-press {
-    padding-top: 60%;
-  }*/
+  #press h2 {
+    padding-bottom: 0px;
+  }
 
   #press img.news-icon {
     width: 12%;
@@ -892,18 +907,33 @@ td {
   height: 100%;
   margin: 0 auto -65px; /* margin: 0 auto -80px; */
 }
-
 .image-bg-contact{
   background: url('../img/contactimgbg.jpg') no-repeat center center scroll;
-  padding: 270px 0;
+  padding: 200px 0;
   background-size: cover;
 }
 .contact-section {
   padding: 100px;
   background-color: #2b3037;
 }
-.contact-section p, .contact-section a, .contact-section h2 {
-  color: #f4f4f4;
+.contact-section p, .contact-section h2 {
+  color: #F4f4f4;
+}
+.contact-section a {
+  color: #c1c1c1;
+}
+.contact-section a:hover {
+  color: #2b3037;
+}
+.btn-outline-light {
+  background: transparent;
+  border: 2px #c1c1c1 solid;
+  padding: 10px;
+}
+.btn-outline-light:hover {
+  background: #F4f4f4;
+  border: 2px #F4F4f4 solid;
+  padding: 10px;
 }
 .contact-map {
   width: 100%;
@@ -927,7 +957,7 @@ td {
   }
   .image-bg-contact{
     background: url('../img/contactimgbg.jpg') no-repeat center center scroll;
-    padding: 250px 0;
+    padding: 200px 0;
     background-size: cover;
   }
 }
@@ -953,6 +983,14 @@ td {
     height: 40px;
     font-size: 26px;
     margin-top:0px;
+  }
+  footer p {
+    margin: 0;
+    font-family: futura-pt; 
+    font-weight: 500; 
+    letter-spacing: 5px; 
+    font-size: 8px !important;
+    color: #ffffff;
   }
 }
 ul.banner-social-buttons {
