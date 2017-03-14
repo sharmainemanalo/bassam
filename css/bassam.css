@@ -860,6 +860,10 @@ h6.btn-outline-dark:hover {
     margin-bottom: -100px;
   }
 
+  #press .press-btn {
+    right: 23%;
+    position: absolute;
+  }
 
   .hr-divider {
     margin-bottom: 70px;
