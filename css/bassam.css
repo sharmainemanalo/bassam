@@ -400,10 +400,13 @@ img::-moz-selection {
   margin-top: 100px;
 }
 @media (max-width: 750px) {
-  .content-section {
+  .content-section 
     padding-top: 0px;
   }
   .our-story-section {
+    padding: 100px 60px;
+  } 
+  .our-story-section1 {
     padding: 100px 60px; 
   }
   .download-section {
@@ -488,6 +491,7 @@ section {
   padding: 300px 0;
   background-size: cover;
 }
+
 
 /*----------------------------------------------- 
 
