@@ -959,14 +959,14 @@ h6.btn-outline-dark:hover {
   color: #F4f4f4;
 }
 .contact-section a {
-  color: #c1c1c1;
+  color: #f4f4f4;
 }
 .contact-section a:hover {
   color: #2b3037;
 }
 .btn-outline-light {
   background: transparent;
-  border: 2px #c1c1c1 solid;
+  border: 2px #F4F4f4 solid;
   padding: 10px;
 }
 .btn-outline-light:hover {
