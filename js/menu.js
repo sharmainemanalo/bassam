@@ -6,20 +6,6 @@ $(window).scroll(function(){
 });*/
 
 
-/*$(window).scroll(function() {
-// 100 = The point you would like to fade the nav in.
-  
-    if ($(window).scrollTop() > 100 ){
-    
-        $('.bg').addClass('show');
-    
-  } else {
-    
-    $('.bg').removeClass('show');
-    
-    };      
-});*/
-
 
 /*
 $(document).ready(function () {
@@ -42,6 +28,7 @@ $(document).ready(function () {
         });
     }
 });*/
+
 
 $(document).ready(function(){                                               
 
