@@ -1,9 +1,9 @@
-var leftOffset = parseInt($(".intro").css('left'));
+/*var leftOffset = parseInt($(".intro").css('left'));
 $(window).scroll(function(){
     $('.fixed-header').css({
         'left': $(this).scrollLeft() + leftOffset
     });
-});
+});*/
 
 
 /*$(window).scroll(function() {
@@ -21,7 +21,7 @@ $(window).scroll(function(){
 });*/
 
 
-
+/*
 $(document).ready(function () {
     var scroll_start = 0;
     var startchange = $("#nav-change");
@@ -41,5 +41,36 @@ $(document).ready(function () {
             }
         });
     }
-});
+});*/
+
+$(document).ready(function(){                                               
+
+       //Navigation Menu Slider
+        $('#nav-expander').on('click',function(e){
+            e.preventDefault();
+            $('body').toggleClass('nav-expanded');
+        });
+        $('#nav-close').on('click',function(e){
+            e.preventDefault();
+            $('body').removeClass('nav-expanded');
+        });
+
+        // Initialize navgoco with default options
+        $(".main-menu").navgoco({
+            caret: '<span class="caret"></span>',
+            accordion: false,
+            openClass: 'open',
+            save: true,
+            cookie: {
+                name: 'navgoco',
+                expires: false,
+                path: '/'
+            },
+            slide: {
+                duration: 300,
+                easing: 'swing'
+            }
+        });
+
+      });
 

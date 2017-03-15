@@ -18,11 +18,11 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" type="text/css" media="screen" />
     <script src="https://use.typekit.net/qyz7juc.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.1.1/ekko-lightbox.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css" type="text/css" media="screen" />
 
 
     <!-- Our CSS -->
@@ -34,49 +34,35 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $(".fancybox").fancybox();
+    });
+  </script>
 
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"><i class="fa fa-bars hamburger-menu"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="index.html">
-                    <img class="logo" src="img/logo.png">
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a href="ourstory.html">Our Story</a>
-                    </li>
-                    <li>
-                        <a href="menu.html">Menu</a>
-                    </li>
-                    <li>
-                        <a class="active" href="gallery.html">Gallery</a>
-                    </li>
-                    <li>
-                        <a href="press.html">Press</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
+    <!-- Navigation Links -->
+    <nav role="navigation">
+        <ul class="list-unstyled main-menu">
+            <li><a href="#" id="nav-close"><img src="img/close.png"></a></li>
+            <li><a href="ourstory.html">OUR STORY</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a class="active" href="gallery.html">GALLERY</a></li>
+            <li><a href="press.html">PRESS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
     </nav>
+    <!-- Logo & Hamburger Menu -->
+    <div class="navbar navbar-custom navbar-fixed-top">      
+        <a class="navbar-brand" href="index.html"><img class="logo" src="img/logo.png"></a>
+        <div class="navbar-header pull-right">
+            <a id="nav-expander" class="nav-expander fixed">
+                <button type="button" class="navbar-toggle hamburger-menu" data-toggle="collapse" data-target="main-menu"><i class="fa fa-bars"></i></button>
+            </a>
+        </div>
+    </div>
 
     <div id="nav-change"></div>
 
@@ -154,12 +140,6 @@
     <script src="js/menu.js"></script>
     <script src="js/grayscale.min.js"></script>
     <script type="text/javascript" src="js/jquery.fancybox.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.1.1/ekko-lightbox.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-        $(".fancybox").fancybox();
-    });
-</script>
 
 </body>
 
