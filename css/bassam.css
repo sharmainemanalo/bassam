@@ -810,7 +810,7 @@ td {
    letter-spacing: 3px;
     zoom:1;
     padding: 40px;      
-     padding-bottom: 0px;   
+     padding-bottom: 0px; 
 }
 .nav-tabs > li:active {
   background-color:transparent;
@@ -835,7 +835,10 @@ td {
   width: 75%;
   margin-top: 100px;
 }
- 
+ .extra {
+    width: 75%;
+  margin-left: 65%;
+ }
 .tea {
   width: 75%;
     margin-left: 15%;
@@ -862,6 +865,10 @@ td {
   .one,
   .two,
   .three {
+    width: 75%;
+    margin-left: 12%;
+  }
+  .extra {
     width: 75%;
     margin-left: 12%;
   }
@@ -892,6 +899,7 @@ td {
     text-align:center;
     background-color: #f4f4f4;
     width: 100%;
+    
 }
 .container {
   padding: 0px;
