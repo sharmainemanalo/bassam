@@ -716,6 +716,11 @@ section {
 #menu {
   overflow: hidden;
 }
+
+#override .active a {
+  background: #e1dad5;
+}
+
 .image-bg-menu{
   background: url('../img/menubanner.jpg') no-repeat center center scroll;
   padding: 200px 0;
@@ -723,7 +728,7 @@ section {
 }
 .menu {
   padding-bottom: 50px;
-  background-color: #ffffff;
+  background-color: #e1dad5;
   width: 100%;
 }
 table {
