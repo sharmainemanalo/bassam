@@ -210,6 +210,7 @@ body.nav-expanded {
   display: inline;
   font-size: 18px;
   padding: 12px;
+  text-shadow: 5px 5px 10px #000000;
 }
 @media (max-width: 800px) {
   .main-menu li {
@@ -226,6 +227,7 @@ body.nav-expanded {
     margin-left: 20px;
     font-size: 18px;
     padding: 12px;
+    text-shadow: none;
   }
   #nav-close {
     display: block;
@@ -438,13 +440,14 @@ body.nav-expanded {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../img/intro-bg.jpg);
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
+
 }
 .intro .intro-body {
   display: table-cell;
@@ -455,6 +458,7 @@ body.nav-expanded {
 }
 .intro .intro-body .intro-text {
   color: #ffffff;
+  text-shadow: 2px 2px 5px #000000;
 }
 .cafe-bassam-led {
     width: 60%;
